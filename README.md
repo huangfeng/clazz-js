@@ -1,16 +1,16 @@
-=clazz-js
+# clazz-js
 
 clazz-js is a class based programming library providing a convenient DSL to write Javascript programms in a class based
 manner.
 
-== Installation
+## Installation
 
 clazz-js can be installed using [npm](https://npmjs.org/):
 ```
 $ npm install clazz
 ```
 
-== Usage
+## Usage
 
 See this example to get an idea of how the code looks:
 
@@ -44,7 +44,7 @@ consoleGreeter.sayHello('dude');
 All the functions given to ```body``` are copied to the class` prototype object. Thus all instances of a class share a
 single copy of all the functions.
 
-=== Inheritance
+### Inheritance
 
 Inheritance works completely in sync with Javascript's prototype object. The `extends` method takes a class object
 as an argument and makes the clazz being in definition a subclass of the given class.
@@ -83,5 +83,5 @@ greeter.on('greeting', function (msg) {
 greeter.greet('dude');
 ```
 
-=== Mixins
+### Mixins
 TODO
