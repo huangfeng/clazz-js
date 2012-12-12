@@ -1,0 +1,12 @@
+{
+    "name": "clazz",
+    "version": "0.1.0",
+    "description": "A Javascript library that provides class-style programming",
+    "devDependencies": {
+        "nodeunit": "*",
+        "chai": "*"
+    },
+    "scripts": {
+        "test": "nodeunit tests"
+    }
+}
