@@ -1,4 +1,4 @@
-# clazz-js
+# clazz-js [![Build Status](https://secure.travis-ci.org/halimath/clazz-js.png?branch=master)](https://travis-ci.org/halimath/clazz-js)
 
 clazz-js is a class based programming library providing a convenient DSL to write Javascript programms in a class based
 manner.
