@@ -1,6 +1,6 @@
 var expect = require('chai').expect;
 
-var clazz = require(__dirname + '/../lib/clazz');
+var clazz = require(__dirname + '/../clazz');
 
 exports.testEnsureThatObjectIsInstanceOfClass = function (test) {
     var C = clazz('Foo');
