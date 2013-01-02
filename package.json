@@ -10,6 +10,7 @@
         "package.json",
         "clazz.js"
     ],
+    "main": "clazz.js",
     "scripts": {
         "test": "nodeunit tests"
     }
