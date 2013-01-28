@@ -3,10 +3,6 @@ var Class = function (name) {
     name = name || 'class';
 
     var clazz = function () {
-        if (clazz._meta.super) {
-            clazz._meta.super.call(this, null);
-        }
-
         if (this.initialize) {
             this.initialize.apply(this, arguments);
         }
